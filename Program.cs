@@ -34,3 +34,13 @@ void PrintArray(string[] arr)
     }
     Console.WriteLine();
 }
+
+Console.Write("Исходный массив: ");
+
+PrintArray(array);
+
+Diffarray(array);
+
+Console.Write("Новый массив: ");
+
+PrintArray(array);
