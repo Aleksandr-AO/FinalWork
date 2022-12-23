@@ -12,3 +12,15 @@
 
 string[] array = new string[] { "Final", "Wok", "be", "Star", "123", "No" };
 
+void Diffarray(string[] arr)
+{
+       for (int i = 0; i < arr.Length; i++)
+    {
+        string element = arr[i];
+        if (element.Length <= 3)
+        {
+            arr[i] = element;
+        }
+        else arr[i] =  string.Empty;
+    }
+}
